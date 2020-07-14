@@ -1,0 +1,157 @@
+@media (max-width: 1250px) {
+  .text h2 {
+    font-size: 110px;
+  }
+  .who h2, .title h2 {
+    font-size: 105px;
+  }
+  .title h2 {
+    margin: 10px 60px;
+  }  
+
+  .serve .who {
+    height: 450px;
+    top: 34%;
+  }
+
+  .container .about {
+    width: 100%;
+    max-width: 350px;
+  }
+
+  .time .available h2 {
+    font-size: 100px;
+    margin-right: 35px;
+  }
+  
+}
+
+@media (max-width: 1180px) {
+  .serve .who {
+    display: none;
+  }
+  .man {
+    width: 90%;
+  }
+  .man h2 {
+    left: 68%;
+  }
+  .man .container {
+    flex-direction: row;
+  }
+  .man .img-cont {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+}
+
+@media(max-width: 1055px) {
+  .serve {
+    display: none;
+  }
+ .serve-small {
+    display: block;
+  }
+  /*T I M E */
+
+  .time .available {
+    justify-content: center;
+  }
+  .time .available h2 {
+    font-size: 70px;
+  }
+  /*A B O U T  */
+  .about {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .about .title h2 {
+    font-size: 80px;
+  }
+}
+
+@media(max-width: 970px) {
+  .time {
+    flex-direction: column-reverse;
+    height: 500px;
+    justify-content: space-around;
+  }
+  .time .available {
+    flex-direction: row;
+    width: 65%;
+    align-items: center;
+    justify-content: center;
+    height: 0;
+    margin-top: 10px;
+  }
+  .time .available h2 {
+    font-size: 100px;
+  }
+  .time .time-container {
+    width: 55%;
+  }
+
+  /*A B O U T*/
+
+  .about {
+    justify-content: space-around;
+    flex-direction: column;
+    height: 550px;
+  }
+  .about .location {
+    width: 70%;
+  }
+  .about .title {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 0;
+    align-items: center;
+  } 
+  .about .title h2 {
+    width: 150px;
+    font-size: 100px;
+  }
+  main .text {
+    left: 10%;
+    top: 20%;
+  }
+}
+
+@media (max-width: 710px) {
+  .serve-small .content {
+    width: 75%;
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .serve-small .who-we h2,
+  .time .available h2,
+  .about .title h2  {
+    font-size: 70px;
+  }
+  .time .available h2 {
+    margin-left: 10px;
+  }
+  .about .title {
+    height: 0;
+    margin-right: 5px;
+  }
+  .about .title h2 {
+    width: 80px;
+  }
+
+  /*time*/
+
+  .time .time-container, .about .location {
+    width: 80%;
+  }
+
+  header h1 {
+    font-size: 38px;  
+  }
+  
+}
+
